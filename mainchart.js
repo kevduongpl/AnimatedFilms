@@ -66,6 +66,7 @@ rectSelect();
 createDropdown();
 createLegend();
 createSlider();
+autoPlay();
 
 function formatData() {
 	filteredData = movieData.filter(
