@@ -1,0 +1,2202 @@
+movieData = [
+  {
+   "Title":"Snow White and the Seven Dwarfs",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1937,
+   "Budget": 1500000,
+   "Box_Office": 416000000,
+   "RT_rating": 0.98,
+   "Studio": ["Walt Disney Productions", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Pinocchio",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1940,
+   "Budget": 2600000,
+   "Box_Office": 84254167,
+   "RT_rating": 1,
+   "Studio": ["Walt Disney Productions", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Dumbo",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1941,
+   "Budget": 950000,
+   "Box_Office": 1600000,
+   "RT_rating": 0.91,
+   "Studio": ["Walt Disney Productions", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Mr. Bug Goes to Town",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1941,
+   "Budget": 713511,
+   "Box_Office": 241000,
+   "RT_rating": 0.67,
+   "Studio": ["Fleischer Studios"]
+  },
+  {
+   "Title":"Bambi",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1942,
+   "Budget": 1700000,
+   "Box_Office": 267400000,
+   "RT_rating": 0.91,
+   "Studio": ["Walt Disney Productions", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Cinderella",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1950,
+   "Budget": 2900000,
+   "Box_Office": 263600000,
+   "RT_rating": 0.97,
+   "Studio": ["Walt Disney Productions", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Alice in Wonderland",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1951,
+   "Budget": 3000000,
+   "Box_Office": 5200000,
+   "RT_rating": 0.79,
+   "Studio": ["Walt Disney Productions", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Peter Pan",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1953,
+   "Budget": 4000000,
+   "Box_Office": 14500000,
+   "RT_rating": 0.76,
+   "Studio": ["Walt Disney Productions", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Lady and the Tramp",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1955,
+   "Budget": 4000000,
+   "Box_Office": 9360000,
+   "RT_rating": 0.89,
+   "Studio": ["Walt Disney Productions", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Sleeping Beauty",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1959,
+   "Budget": 6000000,
+   "Box_Office": 51600000,
+   "RT_rating": 0.92,
+   "Studio": ["Walt Disney Productions", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"One Hundred and One Dalmatians",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1961,
+   "Budget": 4000000,
+   "Box_Office": 215900000,
+   "RT_rating": 0.98,
+   "Studio": ["Walt Disney Productions", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"The Sword in the Stone",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1963,
+   "Budget": 4000000,
+   "Box_Office": 22200000,
+   "RT_rating": 0.71,
+   "Studio": ["Walt Disney Productions", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"The Jungle Book",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1967,
+   "Budget": 4000000,
+   "Box_Office": 205800000,
+   "RT_rating": 0.85,
+   "Studio": ["Walt Disney Productions", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"A Boy Named Charlie Brown",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1969,
+   "Budget": 1100000,
+   "Box_Office": 12000000,
+   "RT_rating": 0.94,
+   "Studio": ["Cinema Center Films"]
+  },
+  {
+   "Title":"The Aristocats",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1970,
+   "Budget": 4000000,
+   "Box_Office": 55700000,
+   "RT_rating": 0.66,
+   "Studio": ["Walt Disney Productions", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Robin Hood",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1973,
+   "Budget": 1500000,
+   "Box_Office": 32100000,
+   "RT_rating": 0.5,
+   "Studio": ["Walt Disney Productions", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"The Rescuers",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1977,
+   "Budget": 1200000,
+   "Box_Office": 71200000,
+   "RT_rating": 0.83,
+   "Studio": ["Walt Disney Productions", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"The Care Bears Movie",
+   "Country": ["Canada"],
+   "Technique":"Traditional",
+   "Year": 1985,
+   "Budget": 2000000,
+   "Box_Office": 22934622,
+   "RT_rating": 0.6,
+   "Studio": ["Nelvana Limited","American Greetings"]
+  },
+  {
+   "Title":"The Great Mouse Detective",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1986,
+   "Budget": 14000000,
+   "Box_Office": 38625550,
+   "RT_rating": 0.81,
+   "Studio": ["Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Akira",
+   "Country": ["Japan"],
+   "Technique":"Traditional",
+   "Year": 1988,
+   "Budget": 9831596.94,
+   "Box_Office": 6703361.5,
+   "RT_rating": 0.87,
+   "Studio": ["Toho","Tokyo Movie Shinsha","Akira Committee"]
+  },
+  {
+   "Title":"The Little Mermaid",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1989,
+   "Budget": 40000000,
+   "Box_Office": 211300000,
+   "RT_rating": 0.92,
+   "Studio": ["Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Beauty and the Beast",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1991,
+   "Budget": 25000000,
+   "Box_Office": 218967620,
+   "RT_rating": 0.93,
+   "Studio": ["Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Aladdin",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1992,
+   "Budget": 28000000,
+   "Box_Office": 504100000,
+   "RT_rating": 0.94,
+   "Studio": ["Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"The Thief and the Cobbler",
+   "Country": ["United States","United Kingdom","Canada"],
+   "Technique":"Traditional",
+   "Year": 1993,
+   "Budget": 25000000,
+   "Box_Office": 669276,
+   "RT_rating":"N/A",
+   "Studio": ["Richard Williams Productions","Allied Filmmakers"]
+  },
+  {
+   "Title":"The Lion King",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1994,
+   "Budget": 45000000,
+   "Box_Office": 768600000,
+   "RT_rating": 0.91,
+   "Studio": ["Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Pocahontas",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1995,
+   "Budget": 55000000,
+   "Box_Office": 346100000,
+   "RT_rating": 0.56,
+   "Studio": ["Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Toy Story",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 1995,
+   "Budget": 30000000,
+   "Box_Office": 361958736,
+   "RT_rating": 1,
+   "Studio": ["Pixar"]
+  },
+  {
+   "Title":"Beavis and Butt-head Do America",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1996,
+   "Budget": 12000000,
+   "Box_Office": 63118386,
+   "RT_rating": 0.72,
+   "Studio": ["MTV Productions","Geffen Pictures","Rough Draft Studios","Judgemental Films"]
+  },
+  {
+   "Title":"The Hunchback of Notre Dame",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1996,
+   "Budget": 100000000,
+   "Box_Office": 325338851,
+   "RT_rating": 0.73,
+   "Studio": ["Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Anastasia",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1997,
+   "Budget": 50000000,
+   "Box_Office": 139804348,
+   "RT_rating": 0.85,
+   "Studio": ["Fox Animation Studios"]
+  },
+  {
+   "Title":"Hercules",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1997,
+   "Budget": 85000000,
+   "Box_Office": 252712101,
+   "RT_rating": 0.83,
+   "Studio": ["Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"I Married a Strange Person!",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1997,
+   "Budget": 250000,
+   "Box_Office": 206272,
+   "RT_rating": 0.7,
+   "Studio": ["Italtoons"]
+  },
+  {
+   "Title":"Perfect Blue",
+   "Country": ["Japan"],
+   "Technique":"Traditional",
+   "Year": 1997,
+   "Budget": 3500000,
+   "Box_Office": 112536,
+   "RT_rating": 0.68,
+   "Studio": ["Madhouse"]
+  },
+  {
+   "Title":"Pippi Longstocking",
+   "Country": ["Sweden","Germany","Canada"],
+   "Technique":"Traditional",
+   "Year": 1997,
+   "Budget": 11500000,
+   "Box_Office": 505335,
+   "RT_rating": 0.43,
+   "Studio": ["Nelvana Limited","AB Svensk Filmindustri"]
+  },
+  {
+   "Title":"A Bug's Life",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 1998,
+   "Budget": 120000000,
+   "Box_Office": 363398565,
+   "RT_rating": 0.92,
+   "Studio": ["Pixar"]
+  },
+  {
+   "Title":"Antz",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 1998,
+   "Budget": 105000000,
+   "Box_Office": 171757863,
+   "RT_rating": 0.96,
+   "Studio": ["Pacific Data Images"]
+  },
+  {
+   "Title":"Mulan",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1998,
+   "Budget": 90000000,
+   "Box_Office": 304320254,
+   "RT_rating": 0.86,
+   "Studio": ["Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Pokémon: The First Movie",
+   "Country": ["Japan"],
+   "Technique":"Traditional",
+   "Year": 1998,
+   "Budget": 30000000,
+   "Box_Office": 163644662,
+   "RT_rating": 0.14,
+   "Studio": ["OLM","Inc."]
+  },
+  {
+   "Title":"Quest for Camelot",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1998,
+   "Budget": 40000000,
+   "Box_Office": 22510798,
+   "RT_rating": 0.36,
+   "Studio": ["Warner Bros. Animation"]
+  },
+  {
+   "Title":"The Prince of Egypt",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1998,
+   "Budget": 70000000,
+   "Box_Office": 218613188,
+   "RT_rating": 0.79,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"The Rugrats Movie",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1998,
+   "Budget": 24000000,
+   "Box_Office": 140894675,
+   "RT_rating": 0.59,
+   "Studio": ["Nickelodeon Movies","Klasky Csupo"]
+  },
+  {
+   "Title":"Fantasia 2000",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1999,
+   "Budget": 80000000,
+   "Box_Office": 90900000,
+   "RT_rating": 0.82,
+   "Studio": ["Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Tarzan",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1999,
+   "Budget": 130000000,
+   "Box_Office": 448191819,
+   "RT_rating": 0.88,
+   "Studio": ["Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"The Iron Giant",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1999,
+   "Budget": 70000000,
+   "Box_Office": 23159305,
+   "RT_rating": 0.96,
+   "Studio": ["Warner Bros. Feature Animation"]
+  },
+  {
+   "Title":"The King and I",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 1999,
+   "Budget": 25000000,
+   "Box_Office": 11993021,
+   "RT_rating": 0.13,
+   "Studio": ["Warner Bros. Feature Animation","Morgan Creek Productions","Rankin","Bass Productions","Nest Family Entertainment","Rich Animation Studios"]
+  },
+  {
+   "Title":"Toy Story 2",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 1999,
+   "Budget": 90000000,
+   "Box_Office": 485015179,
+   "RT_rating": 1,
+   "Studio": ["Pixar"]
+  },
+  {
+   "Title":"Digimon: The Movie",
+   "Country": ["Japan"],
+   "Technique":"Traditional",
+   "Year": 2000,
+   "Budget": 5000000,
+   "Box_Office": 16643191,
+   "RT_rating": 0.25,
+   "Studio": ["Fox Kids","Toei Animation","Saban Entertainment"]
+  },
+  {
+   "Title":"Pokémon: The Movie 2000",
+   "Country": ["Japan"],
+   "Technique":"Traditional",
+   "Year": 2000,
+   "Budget": 30000000,
+   "Box_Office": 133949270,
+   "RT_rating": 0.15,
+   "Studio": ["OLM"]
+  },
+  {
+   "Title":"Rugrats in Paris: The Movie",
+   "Country": ["United States","Germany"],
+   "Technique":"Traditional",
+   "Year": 2000,
+   "Budget": 30000000,
+   "Box_Office": 103291131,
+   "RT_rating": 0.75,
+   "Studio": ["Nickelodeon Movies","Klasky Csupo"]
+  },
+  {
+   "Title":"The Emperor's New Groove",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2000,
+   "Budget": 100000000,
+   "Box_Office": 169300000,
+   "RT_rating": 0.85,
+   "Studio": ["Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"The Road to El Dorado",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2000,
+   "Budget": 50863742,
+   "Box_Office": 76432727,
+   "RT_rating": 0.48,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"The Tigger Movie",
+   "Country": ["United States","Japan"],
+   "Technique":"Traditional",
+   "Year": 2000,
+   "Budget": 30000000,
+   "Box_Office": 96159800,
+   "RT_rating": 0.62,
+   "Studio": ["DisneyToon Studios"]
+  },
+  {
+   "Title":"Atlantis: The Lost Empire",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2001,
+   "Budget": 120000000,
+   "Box_Office": 186053725,
+   "RT_rating": 0.49,
+   "Studio": ["Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Final Fantasy: The Spirits Within",
+   "Country": ["Japan","United States"],
+   "Technique":"CG Animation",
+   "Year": 2001,
+   "Budget": 137000000,
+   "Box_Office": 85131830,
+   "RT_rating": 0.44,
+   "Studio": ["Square Pictures"]
+  },
+  {
+   "Title":"Jimmy Neutron: Boy Genius",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2001,
+   "Budget": 30000000,
+   "Box_Office": 102992536,
+   "RT_rating": 0.75,
+   "Studio": ["Nickelodeon Movies","O Entertainment","DNA Productions"]
+  },
+  {
+   "Title":"Monsters, Inc.",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2001,
+   "Budget": 115000000,
+   "Box_Office": 562816256,
+   "RT_rating": 0.96,
+   "Studio": ["Pixar"]
+  },
+  {
+   "Title":"Recess: School's Out",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2001,
+   "Budget": 23000000,
+   "Box_Office": 44460850,
+   "RT_rating": 0.61,
+   "Studio": ["Walt Disney Pictures","Walt Disney Television Animation","Rough Draft Studios"]
+  },
+  {
+   "Title":"Shrek",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2001,
+   "Budget": 60000000,
+   "Box_Office": 484409218,
+   "RT_rating": 0.88,
+   "Studio": ["DreamWorks Animation","Pacific Data Images"]
+  },
+  {
+   "Title":"Hey Arnold!: The Movie",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2002,
+   "Budget": 4000000,
+   "Box_Office": 15200000,
+   "RT_rating": 0.29,
+   "Studio": ["Nickelodeon Movies","Snee-Oosh","Inc."]
+  },
+  {
+   "Title":"Ice Age",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2002,
+   "Budget": 59000000,
+   "Box_Office": 383257136,
+   "RT_rating": 0.77,
+   "Studio": ["20th Century Fox","Blue Sky Studios"]
+  },
+  {
+   "Title":"Jonah: A VeggieTales Movie",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2002,
+   "Budget": 14000000,
+   "Box_Office": 25615231,
+   "RT_rating": 0.65,
+   "Studio": ["Artisan Entertainment","Big Idea Productions","FHE Pictures"]
+  },
+  {
+   "Title":"Lilo & Stitch",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2002,
+   "Budget": 80000000,
+   "Box_Office": 273144151,
+   "RT_rating": 0.86,
+   "Studio": ["Walt Disney Pictures","Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Return to Never Land",
+   "Country": ["United States","Canada","Australia"],
+   "Technique":"Traditional",
+   "Year": 2002,
+   "Budget": 20000000,
+   "Box_Office": 109862682,
+   "RT_rating": 0.45,
+   "Studio": ["Walt Disney Pictures","DisneyToon Studios"]
+  },
+  {
+   "Title":"Spirit: Stallion of the Cimarron",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2002,
+   "Budget": 80000000,
+   "Box_Office": 122563539,
+   "RT_rating": 0.69,
+   "Studio": ["DreamWorks Pictures","DreamWorks Animation"]
+  },
+  {
+   "Title":"The Powerpuff Girls Movie",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2002,
+   "Budget": 11000000,
+   "Box_Office": 16426471,
+   "RT_rating": 0.63,
+   "Studio": ["Warner Bros.","Cartoon Network Studios","Rough Draft Studios"]
+  },
+  {
+   "Title":"The Wild Thornberrys Movie",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2002,
+   "Budget": 25000000,
+   "Box_Office": 60694737,
+   "RT_rating": 0.8,
+   "Studio": ["Paramount Pictures","Nickelodeon Movies","Klasky Csupo"]
+  },
+  {
+   "Title":"Treasure Planet",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2002,
+   "Budget": 140000000,
+   "Box_Office": 109578115,
+   "RT_rating": 0.69,
+   "Studio": ["Walt Disney Pictures","Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Brother Bear",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2003,
+   "Budget": 128000000,
+   "Box_Office": 250397798,
+   "RT_rating": 0.38,
+   "Studio": ["Walt Disney Pictures","Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Finding Nemo",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2003,
+   "Budget": 94000000,
+   "Box_Office": 936743261,
+   "RT_rating": 0.99,
+   "Studio": ["Walt Disney Pictures","Pixar"]
+  },
+  {
+   "Title":"Rugrats Go Wild!",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2003,
+   "Budget": 25000000,
+   "Box_Office": 55405066,
+   "RT_rating": 0.41,
+   "Studio": ["Paramount Pictures","Nickelodeon Movies","Klasky Csupo"]
+  },
+  {
+   "Title":"Sinbad: Legend of the Seven Seas",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2003,
+   "Budget": 60000000,
+   "Box_Office": 80767884,
+   "RT_rating": 0.46,
+   "Studio": ["DreamWorks Pictures","DreamWorks Animation"]
+  },
+  {
+   "Title":"The Jungle Book 2",
+   "Country": ["United States","Australia"],
+   "Technique":"Traditional",
+   "Year": 2003,
+   "Budget": 20000000,
+   "Box_Office": 135703599,
+   "RT_rating": 0.19,
+   "Studio": ["Walt Disney Pictures","DisneyToon Studios"]
+  },
+  {
+   "Title":"Appleseed",
+   "Country": ["Japan"],
+   "Technique":"CG Animation",
+   "Year": 2004,
+   "Budget": 10000000,
+   "Box_Office": 1461989,
+   "RT_rating":"N/A",
+   "Studio": ["Micott & Basara","Digital Frontier"]
+  },
+  {
+   "Title":"Home on the Range",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2004,
+   "Budget": 110000000,
+   "Box_Office": 103951461,
+   "RT_rating": 0.54,
+   "Studio": ["Walt Disney Pictures","Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Pinocchio 3000",
+   "Country": ["Canada","France","Spain"],
+   "Technique":"CG Animation",
+   "Year": 2004,
+   "Budget": 12000000,
+   "Box_Office": 15485280,
+   "RT_rating": 0.25,
+   "Studio": ["CinéGroupe","Filmax","Anima Kids"]
+  },
+  {
+   "Title":"Shark Tale",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2004,
+   "Budget": 75000000,
+   "Box_Office": 367275019,
+   "RT_rating": 0.35,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"Shrek 2",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2004,
+   "Budget": 150000000,
+   "Box_Office": 919838758,
+   "RT_rating": 0.88,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"Steamboy",
+   "Country": ["Japan"],
+   "Technique":"Traditional",
+   "Year": 2004,
+   "Budget": 22000000,
+   "Box_Office": 10870198,
+   "RT_rating": 0.6,
+   "Studio": ["Sunrise"]
+  },
+  {
+   "Title":"The Incredibles",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2004,
+   "Budget": 92000000,
+   "Box_Office": 631442092,
+   "RT_rating": 0.97,
+   "Studio": ["Walt Disney Pictures","Pixar"]
+  },
+  {
+   "Title":"The Polar Express",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2004,
+   "Budget": 165000000,
+   "Box_Office": 307514317,
+   "RT_rating": 0.55,
+   "Studio": ["Warner Bros.","ImageMovers"]
+  },
+  {
+   "Title":"The SpongeBob SquarePants Movie",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2004,
+   "Budget": 30000000,
+   "Box_Office": 307514317,
+   "RT_rating": 0.68,
+   "Studio": ["Paramount Pictures","Nickelodeon Movies","Nickelodeon Animation Studio"]
+  },
+  {
+   "Title":"Chicken Little",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2005,
+   "Budget": 150000000,
+   "Box_Office": 314432837,
+   "RT_rating": 0.36,
+   "Studio": ["Walt Disney Pictures","Walt Disney Feature Animation", "Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"DragonBlade: The Legend of Lang",
+   "Country": ["Hong Kong"],
+   "Technique":"CG Animation",
+   "Year": 2005,
+   "Budget": 10000000,
+   "Box_Office": 1966342,
+   "RT_rating":"N/A",
+   "Studio": ["(N/A)"]
+  },
+  {
+   "Title":"Hoodwinked!",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2005,
+   "Budget": 8000000,
+   "Box_Office": 110013167,
+   "RT_rating": 0.46,
+   "Studio": ["The Weinstein Company","Blue Yonder Films"]
+  },
+  {
+   "Title":"Robots",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2005,
+   "Budget": 75000000,
+   "Box_Office": 260718330,
+   "RT_rating": 0.64,
+   "Studio": ["20th Century Fox","Blue Sky Studios"]
+  },
+  {
+   "Title":"Valiant",
+   "Country": ["United Kingdom","United States"],
+   "Technique":"CG Animation",
+   "Year": 2005,
+   "Budget": 35000000,
+   "Box_Office": 61746888,
+   "RT_rating": 0.31,
+   "Studio": ["Walt Disney Pictures","Vanguard Animation"]
+  },
+  {
+   "Title":"Arthur and the Invisibles",
+   "Country": ["France"],
+   "Technique":"CG Animation",
+   "Year": 2006,
+   "Budget": 86000000,
+   "Box_Office": 107944236,
+   "RT_rating": 0.21,
+   "Studio": ["Avalanche Productions"]
+  },
+  {
+   "Title":"Azur & Asmar: The Princes' Quest",
+   "Country": ["France","Belgium","Spain","Italy"],
+   "Technique":"CG Animation",
+   "Year": 2006,
+   "Budget": 9828000,
+   "Box_Office": 9828000,
+   "RT_rating": 0.8,
+   "Studio": ["Mac Guff Ligne"]
+  },
+  {
+   "Title":"Barnyard",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2006,
+   "Budget": 51000000,
+   "Box_Office": 116476887,
+   "RT_rating": 0.22,
+   "Studio": ["Paramount Pictures","Nickelodeon Movies","O Entertainment"]
+  },
+  {
+   "Title":"Cars",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2006,
+   "Budget": 120000000,
+   "Box_Office": 461983149,
+   "RT_rating": 0.74,
+   "Studio": ["Pixar"]
+  },
+  {
+   "Title":"Curious George",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2006,
+   "Budget": 50000000,
+   "Box_Office": 69834815,
+   "RT_rating": 0.69,
+   "Studio": ["Universal Animation Studios"]
+  },
+  {
+   "Title":"Flushed Away",
+   "Country": ["United Kingdom","United States"],
+   "Technique":"CG Animation",
+   "Year": 2006,
+   "Budget": 149000000,
+   "Box_Office": 178120010,
+   "RT_rating": 0.72,
+   "Studio": ["Aardman Animations","DreamWorks Animation"]
+  },
+  {
+   "Title":"Happy Feet",
+   "Country": ["Australia","United States"],
+   "Technique":"CG Animation",
+   "Year": 2006,
+   "Budget": 100000000,
+   "Box_Office": 384335608,
+   "RT_rating": 0.75,
+   "Studio": ["Animal Logic","Warner Bros."]
+  },
+  {
+   "Title":"Ice Age: The Meltdown",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2006,
+   "Budget": 80000000,
+   "Box_Office": 660940780,
+   "RT_rating": 0.57,
+   "Studio": ["Blue Sky Studios"]
+  },
+  {
+   "Title":"Monster House",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2006,
+   "Budget": 75000000,
+   "Box_Office": 140175006,
+   "RT_rating": 0.74,
+   "Studio": ["ImageMovers"]
+  },
+  {
+   "Title":"Open Season",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2006,
+   "Budget": 85000000,
+   "Box_Office": 197309027,
+   "RT_rating": 0.48,
+   "Studio": ["Sony Pictures Animation"]
+  },
+  {
+   "Title":"Renaissance",
+   "Country": ["France","United Kingdom","Luxembourg"],
+   "Technique":"Traditional",
+   "Year": 2006,
+   "Budget": 18000000,
+   "Box_Office": 1831348,
+   "RT_rating": 0.48,
+   "Studio": ["Onyx Films","Millimages"]
+  },
+  {
+   "Title":"Shark Bait",
+   "Country": ["United States","South Korea"],
+   "Technique":"CG Animation",
+   "Year": 2006,
+   "Budget": 10000000,
+   "Box_Office": 13662815,
+   "RT_rating": 0.27,
+   "Studio": ["Digi Art","FX Digital","Silver Nitrate","Wonderworld Studios"]
+  },
+  {
+   "Title":"The Ant Bully",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2006,
+   "Budget": 50000000,
+   "Box_Office": 55181129,
+   "RT_rating": 0.63,
+   "Studio": ["Warner Bros.","DNA Productions"]
+  },
+  {
+   "Title":"The Wild",
+   "Country": ["United States","Canada"],
+   "Technique":"CG Animation",
+   "Year": 2006,
+   "Budget": 80000000,
+   "Box_Office": 102338515,
+   "RT_rating": 0.2,
+   "Studio": ["C.O.R.E.","Walt Disney Pictures"]
+  },
+  {
+   "Title":"Aqua Teen Hunger Force Colon Movie Film for Theaters",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2007,
+   "Budget": 750000,
+   "Box_Office": 5520368,
+   "RT_rating": "N/A",
+   "Studio": ["Radical Axis","Williams Street","Adult Swim"]
+  },
+  {
+   "Title":"Bee Movie",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2007,
+   "Budget": 150000000,
+   "Box_Office": 287594577,
+   "RT_rating": 0.51,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"Beowulf",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2007,
+   "Budget": 15000000,
+   "Box_Office": 196393745,
+   "RT_rating": 0.71,
+   "Studio": ["ImageMovers"]
+  },
+  {
+   "Title":"Happily N'Ever After",
+   "Country": ["United States","Germany"],
+   "Technique":"CG Animation",
+   "Year": 2007,
+   "Budget": 47000000,
+   "Box_Office": 38085778,
+   "RT_rating": 0.04,
+   "Studio": ["BAF Berlin Animation Film","BFC Berliner Film Companie","Odyssey Entertainment","(N/A)","Vanguard Films","Vanguard Animation"]
+  },
+  {
+   "Title":"Ratatouille",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2007,
+   "Budget": 150000000,
+   "Box_Office": 623722818,
+   "RT_rating": 0.96,
+   "Studio": ["Pixar"]
+  },
+  {
+   "Title":"Shrek the Third",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2007,
+   "Budget": 160000000,
+   "Box_Office": 798958162,
+   "RT_rating": 0.4,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"The Simpsons Movie",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2007,
+   "Budget": 75000000,
+   "Box_Office": 527071022,
+   "RT_rating": 0.89,
+   "Studio": ["Gracie Films","Film Roman","Rough Draft Feature Animation","20th Century Fox","Animation"]
+  },
+  {
+   "Title":"TMNT",
+   "Country": ["United States","Hong Kong"],
+   "Technique":"CG Animation",
+   "Year": 2007,
+   "Budget": 34000000,
+   "Box_Office": 95608995,
+   "RT_rating": 0.34,
+   "Studio": ["Imagi Animation Studios"]
+  },
+  {
+   "Title":"Bolt",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2008,
+   "Budget": 150000000,
+   "Box_Office": 309979994,
+   "RT_rating": 0.89,
+   "Studio": ["Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Delgo",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2008,
+   "Budget": 40000000,
+   "Box_Office": 694782,
+   "RT_rating": 0.12,
+   "Studio": ["Electric Eye Entertainment Corporation"]
+  },
+  {
+   "Title":"Dragon Hunters Chasseurs de dragons",
+   "Country": ["France"],
+   "Technique":"CG Animation",
+   "Year": 2008,
+   "Budget": 13104000,
+   "Box_Office": 12235843,
+   "RT_rating": 0.67,
+   "Studio": ["Futurikon"]
+  },
+  {
+   "Title":"Fly Me to the Moon",
+   "Country": ["Belgium"],
+   "Technique":"CG Animation",
+   "Year": 2008,
+   "Budget": 25000000,
+   "Box_Office": 41721414,
+   "RT_rating": 0.19,
+   "Studio": ["nWave Pictures","Illuminata Pictures"]
+  },
+  {
+   "Title":"Goat Story - The Old Prague Legends Kozí příběh - pověsti staré Prahy",
+   "Country": ["Czech Republic"],
+   "Technique":"CG Animation",
+   "Year": 2008,
+   "Budget": 1800000,
+   "Box_Office": 1300000,
+   "RT_rating": 0.25,
+   "Studio": ["Art And Animation studio"]
+  },
+  {
+   "Title":"Horton Hears a Who!",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2008,
+   "Budget": 85000000,
+   "Box_Office": 297138014,
+   "RT_rating": 0.79,
+   "Studio": ["Blue Sky Studios"]
+  },
+  {
+   "Title":"Igor",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2008,
+   "Budget": 25000000,
+   "Box_Office": 30747504,
+   "RT_rating": 0.36,
+   "Studio": ["Exodus Film Group"]
+  },
+  {
+   "Title":"Kung Fu Panda",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2008,
+   "Budget": 130000000,
+   "Box_Office": 631744560,
+   "RT_rating": 0.87,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"Madagascar: Escape 2 Africa",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2008,
+   "Budget": 150000000,
+   "Box_Office": 603900354,
+   "RT_rating": 0.64,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"Roadside Romeo",
+   "Country": ["India"],
+   "Technique":"CG Animation",
+   "Year": 2008,
+   "Budget": 1600000,
+   "Box_Office": 1978021,
+   "RT_rating": 0.5,
+   "Studio": ["Walt Disney International India"]
+  },
+  {
+   "Title":"Space Chimps",
+   "Country": ["Canada"],
+   "Technique":"CG Animation",
+   "Year": 2008,
+   "Budget": 37000000,
+   "Box_Office": 64834964,
+   "RT_rating": 0.34,
+   "Studio": ["Vanguard Animation","Starz Media"]
+  },
+  {
+   "Title":"Star Wars: The Clone Wars",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2008,
+   "Budget": 8500000,
+   "Box_Office": 68282844,
+   "RT_rating": 0.18,
+   "Studio": ["Lucasfilm Animation"]
+  },
+  {
+   "Title":"The Flight Before Christmas Niko - Lentäjän poika",
+   "Country": ["Finland","Denmark","Germany","Republic of Ireland"],
+   "Technique":"CG Animation",
+   "Year": 2008,
+   "Budget": 6663213,
+   "Box_Office": 21822495,
+   "RT_rating": 0.48,
+   "Studio": ["Animaker Oy","A.Film","Ulysses Films","Magma Films"]
+  },
+  {
+   "Title":"The Tale of Despereaux",
+   "Country": ["United Kingdom","United States"],
+   "Technique":"CG Animation",
+   "Year": 2008,
+   "Budget": 60000000,
+   "Box_Office": 86947965,
+   "RT_rating": 0.56,
+   "Studio": ["Relativity Media","Framestore Feature Animation","Universal Animation Studios"]
+  },
+  {
+   "Title":"Tinker Bell",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2008,
+   "Budget": 35000000,
+   "Box_Office": 9199510,
+   "RT_rating": 0.88,
+   "Studio": ["DisneyToon Studios","Prana Studios"]
+  },
+  {
+   "Title":"WALL-E",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2008,
+   "Budget": 180000000,
+   "Box_Office": 521311860,
+   "RT_rating": 0.96,
+   "Studio": ["Pixar"]
+  },
+  {
+   "Title": 9,
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2009,
+   "Budget": 30000000,
+   "Box_Office": 48428063,
+   "RT_rating":"N/A",
+   "Studio": ["Relativity Media","Starz Animation"]
+  },
+  {
+   "Title":"A Christmas Carol",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2009,
+   "Budget": 200000000,
+   "Box_Office": 325286646,
+   "RT_rating": 0.54,
+   "Studio": ["ImageMovers Digital"]
+  },
+  {
+   "Title":"Astro Boy",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2009,
+   "Budget": 65000000,
+   "Box_Office": 39886986,
+   "RT_rating": 0.49,
+   "Studio": ["Imagi Animation Studios"]
+  },
+  {
+   "Title":"Cloudy with a Chance of Meatballs",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2009,
+   "Budget": 100000000,
+   "Box_Office": 243006126,
+   "RT_rating": 0.87,
+   "Studio": ["Sony Pictures Animation"]
+  },
+  {
+   "Title":"Geng: The Adventure Begins",
+   "Country": ["Malaysia"],
+   "Technique":"CG Animation",
+   "Year": 2009,
+   "Budget": 948681.8,
+   "Box_Office": 1495794.01,
+   "RT_rating":"N/A",
+   "Studio": ["Les' Copaque Production"]
+  },
+  {
+   "Title":"Hero of the Rails",
+   "Country": ["Canada"],
+   "Technique":"CG Animation",
+   "Year": 2009,
+   "Budget": 16000000,
+   "Box_Office": 199000000,
+   "RT_rating":"N/A",
+   "Studio": ["Hit Entertainment"]
+  },
+  {
+   "Title":"Ice Age: Dawn of the Dinosaurs",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2009,
+   "Budget": 90000000,
+   "Box_Office": 886686817,
+   "RT_rating": 0.45,
+   "Studio": ["Blue Sky Studios"]
+  },
+  {
+   "Title":"Luke and Lucy: The Texas Rangers",
+   "Country": ["Belgium","Luxembourg","Netherlands"],
+   "Technique":"CG Animation",
+   "Year": 2009,
+   "Budget": 9837450,
+   "Box_Office": 259477.06,
+   "RT_rating": 0.27,
+   "Studio": ["Bos Bros. Film & TV Productions","Skyline Entertainment","Cotoon Studio","(N/A)","Luxanimation"]
+  },
+  {
+   "Title":"Monsters vs. Aliens",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2009,
+   "Budget": 175000000,
+   "Box_Office": 381509870,
+   "RT_rating": 0.72,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"Planet 51",
+   "Country": ["Spain","United Kingdom"],
+   "Technique":"CG Animation",
+   "Year": 2009,
+   "Budget": 70000000,
+   "Box_Office": 105647102,
+   "RT_rating": 0.21,
+   "Studio": ["Ilion Animation Studios"]
+  },
+  {
+   "Title":"The Princess and the Frog",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2009,
+   "Budget": 105000000,
+   "Box_Office": 267045765,
+   "RT_rating": 0.84,
+   "Studio": ["Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"The Secret of Kells",
+   "Country": ["Republic of Ireland","Belgium","France"],
+   "Technique":"Traditional",
+   "Year": 2009,
+   "Budget": 8000000,
+   "Box_Office": 739454,
+   "RT_rating": 0.91,
+   "Studio": ["Celluloid Dreams","Cartoon Saloon"]
+  },
+  {
+   "Title":"Tinker Bell and the Lost Treasure",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2009,
+   "Budget": 35000000,
+   "Box_Office": 8582265,
+   "RT_rating": 0.74,
+   "Studio": ["DisneyToon Studios"]
+  },
+  {
+   "Title":"Up",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2009,
+   "Budget": 175000000,
+   "Box_Office": 731342744,
+   "RT_rating": 0.98,
+   "Studio": ["Pixar"]
+  },
+  {
+   "Title":"Yona Yona Penguin",
+   "Country": ["Japan","France"],
+   "Technique":"CG Animation",
+   "Year": 2009,
+   "Budget": 12000000,
+   "Box_Office": 12000000,
+   "RT_rating": 0.14,
+   "Studio": ["Madhouse","Dynamo Pictures"]
+  },
+  {
+   "Title":"Despicable Me",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2010,
+   "Budget": 69000000,
+   "Box_Office": 543113985,
+   "RT_rating": 0.81,
+   "Studio": ["Illumination Entertainment"]
+  },
+  {
+   "Title":"How To Train Your Dragon",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2010,
+   "Budget": 165000000,
+   "Box_Office": 494878759,
+   "RT_rating": 0.98,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"Legend of the Guardians: The Owls of Ga'Hoole",
+   "Country": ["Australia"],
+   "Technique":"CG Animation",
+   "Year": 2010,
+   "Budget": 80000000,
+   "Box_Office": 140073390,
+   "RT_rating": 0.5,
+   "Studio": ["Village Roadshow Pictures","Animal Logic","Cruel and Unusual Films"]
+  },
+  {
+   "Title":"Megamind",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2010,
+   "Budget": 130000000,
+   "Box_Office": 321885765,
+   "RT_rating": 0.72,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"RPG Metanoia",
+   "Country": ["Philippines"],
+   "Technique":"CG Animation",
+   "Year": 2010,
+   "Budget": 1473123.4,
+   "Box_Office": 694472.46,
+   "RT_rating":"N/A",
+   "Studio": ["Ambient Media","Thaumatrope Animation"]
+  },
+  {
+   "Title":"Shrek Forever After",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2010,
+   "Budget": 165000000,
+   "Box_Office": 752600867,
+   "RT_rating": 0.58,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"Space Dogs",
+   "Country": ["Russia"],
+   "Technique":"CG Animation",
+   "Year": 2010,
+   "Budget": 4372800,
+   "Box_Office": 8314408,
+   "RT_rating":"N/A",
+   "Studio": ["Centre of National Film"]
+  },
+  {
+   "Title":"Tangled",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2010,
+   "Budget": 260000000,
+   "Box_Office": 591794936,
+   "RT_rating": 0.9,
+   "Studio": ["Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"The Illusionist",
+   "Country": ["France","United Kingdom"],
+   "Technique":"Traditional",
+   "Year": 2010,
+   "Budget": 17000000,
+   "Box_Office": 5602431,
+   "RT_rating":"N/A",
+   "Studio": ["Pathé","Django Films"]
+  },
+  {
+   "Title":"Tinker Bell and the Great Fairy Rescue",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2010,
+   "Budget": 35000000,
+   "Box_Office": 10872752,
+   "RT_rating": 0.71,
+   "Studio": ["DisneyToon Studios"]
+  },
+  {
+   "Title":"Toy Story 3",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2010,
+   "Budget": 200000000,
+   "Box_Office": 1063171911,
+   "RT_rating": 0.99,
+   "Studio": ["Pixar"]
+  },
+  {
+   "Title":"A Monster in Paris",
+   "Country": ["France"],
+   "Technique":"CG Animation",
+   "Year": 2011,
+   "Budget": 27330000,
+   "Box_Office": 162942837,
+   "RT_rating": 0.85,
+   "Studio": ["Bibo Films","EuropaCorp Distribution"]
+  },
+  {
+   "Title":"Barbie: A Fairy Secret",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2011,
+   "Budget": 17500000,
+   "Box_Office": 125000000,
+   "RT_rating": 0.74,
+   "Studio": ["Rainmaker Entertainment","Universal Pictures","Kidtoon Films"]
+  },
+  {
+   "Title":"Cars 2",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2011,
+   "Budget": 200000000,
+   "Box_Office": 559852396,
+   "RT_rating": 0.39,
+   "Studio": ["Pixar"]
+  },
+  {
+   "Title":"Gnomeo & Juliet",
+   "Country": ["United Kingdom","United States"],
+   "Technique":"CG Animation",
+   "Year": 2011,
+   "Budget": 36000000,
+   "Box_Office": 193967670,
+   "RT_rating": 0.55,
+   "Studio": ["Rocket Pictures"]
+  },
+  {
+   "Title":"Happy Feet Two",
+   "Country": ["Australia","United States"],
+   "Technique":"CG Animation",
+   "Year": 2011,
+   "Budget": 135000000,
+   "Box_Office": 150406466,
+   "RT_rating": 0,
+   "Studio": ["Dr. D Studios","Warner Bros."]
+  },
+  {
+   "Title":"Kung Fu Panda 2",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2011,
+   "Budget": 150000000,
+   "Box_Office": 665692281,
+   "RT_rating": 0.81,
+   "Studio": ["DreamWorks Animation","Paramount Pictures"]
+  },
+  {
+   "Title":"Mars Needs Moms",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2011,
+   "Budget": 150000000,
+   "Box_Office": 38992758,
+   "RT_rating": 0.37,
+   "Studio": ["ImageMovers Digital","Walt Disney Pictures"]
+  },
+  {
+   "Title":"Puss in Boots",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2011,
+   "Budget": 130000000,
+   "Box_Office": 554987477,
+   "RT_rating": 0.84,
+   "Studio": ["DreamWorks Animation","Paramount Pictures"]
+  },
+  {
+   "Title":"Rango",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2011,
+   "Budget": 135000000,
+   "Box_Office": 245724603,
+   "RT_rating": 0.87,
+   "Studio": ["Nickelodeon Movies","Blind Wink","GK Films","Paramount Pictures"]
+  },
+  {
+   "Title":"Rio",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2011,
+   "Budget": 90000000,
+   "Box_Office": 484635760,
+   "RT_rating": 0.72,
+   "Studio": ["Blue Sky Studios","20th Century Fox"]
+  },
+  {
+   "Title":"Ronal the Barbarian",
+   "Country": ["Denmark"],
+   "Technique":"CG Animation",
+   "Year": 2011,
+   "Budget": 3068796,
+   "Box_Office": 2049141,
+   "RT_rating":"N/A",
+   "Studio": ["Einstein Film"]
+  },
+  {
+   "Title":"The Lion of Judah",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2011,
+   "Budget": 15000000,
+   "Box_Office": 15000000,
+   "RT_rating": 0,
+   "Studio": ["Animated Family Films","Rocky Mountain Pictures"]
+  },
+  {
+   "Title":"Winnie the Pooh",
+   "Country": ["United States"],
+   "Technique":"Traditional",
+   "Year": 2011,
+   "Budget": 30000000,
+   "Box_Office": 33200000,
+   "RT_rating": 0.9,
+   "Studio": ["Walt Disney Animation Studios","Walt Disney Pictures"]
+  },
+  {
+   "Title":"Brave",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2012,
+   "Budget": 185000000,
+   "Box_Office": 538983207,
+   "RT_rating": 0.78,
+   "Studio": ["Pixar"]
+  },
+  {
+   "Title":"Delhi Safari",
+   "Country": ["India"],
+   "Technique":"CG Animation",
+   "Year": 2012,
+   "Budget": 218025.15,
+   "Box_Office": 290000,
+   "RT_rating": 0.17,
+   "Studio": ["Krayon Pictures"]
+  },
+  {
+   "Title":"Foodfight!",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2012,
+   "Budget": 45000000,
+   "Box_Office": 73706,
+   "RT_rating": 0.1,
+   "Studio": ["Threshold Entertainment"]
+  },
+  {
+   "Title":"Hotel Transylvania",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2012,
+   "Budget": 85000000,
+   "Box_Office": 358375603,
+   "RT_rating": 0.44,
+   "Studio": ["Sony Pictures Animation","Columbia Pictures"]
+  },
+  {
+   "Title":"Ice Age: Continental Drift",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2012,
+   "Budget": 95000000,
+   "Box_Office": 877244782,
+   "RT_rating": 0.37,
+   "Studio": ["Blue Sky Studios","20th Century Fox"]
+  },
+  {
+   "Title":"Madagascar 3: Europe's Most Wanted",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2012,
+   "Budget": 145000000,
+   "Box_Office": 746921274,
+   "RT_rating": 0.79,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"Norm of the North",
+   "Country": ["United States","India"],
+   "Technique":"CG Animation",
+   "Year": 2012,
+   "Budget": 18000000,
+   "Box_Office": 22800000,
+   "RT_rating": 0.08,
+   "Studio": ["Crest Animation Studios"]
+  },
+  {
+   "Title":"Rise of the Guardians",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2012,
+   "Budget": 145000000,
+   "Box_Office": 306941670,
+   "RT_rating": 0.74,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"Sammy 2: Escape From Paradise",
+   "Country": ["Belgium"],
+   "Technique":"CG Animation",
+   "Year": 2012,
+   "Budget": 10000000,
+   "Box_Office": 69234567,
+   "RT_rating":"N/A",
+   "Studio": ["nWave Pictures","Illuminata Pictures"]
+  },
+  {
+   "Title":"Secret of the Wings",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2012,
+   "Budget": 30000000,
+   "Box_Office": 67537798,
+   "RT_rating": 0.58,
+   "Studio": ["DisneyToon Studios","Walt Disney Pictures"]
+  },
+  {
+   "Title":"Snow Queen",
+   "Country": ["Russia"],
+   "Technique":"CG Animation",
+   "Year": 2012,
+   "Budget": 7000000,
+   "Box_Office": 14000000,
+   "RT_rating":"N/A",
+   "Studio": ["Wizart Animation","Inlay Film"]
+  },
+  {
+   "Title":"Tad, the Lost Explorer",
+   "Country": ["Spain"],
+   "Technique":"CG Animation",
+   "Year": 2012,
+   "Budget": 8745600,
+   "Box_Office": 60800000,
+   "RT_rating":"N/A",
+   "Studio": ["El Toro Pictures","Ikiru Films","Lightbox Entertainment"]
+  },
+  {
+   "Title":"Wreck-It Ralph",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2012,
+   "Budget": 165000000,
+   "Box_Office": 471222889,
+   "RT_rating": 0.86,
+   "Studio": ["Walt Disney Animation Studios","Walt Disney Pictures"]
+  },
+  {
+   "Title":"Yak: The Giant King",
+   "Country": ["Thailand"],
+   "Technique":"CG Animation",
+   "Year": 2012,
+   "Budget": 2795993,
+   "Box_Office": 1668124,
+   "RT_rating":"N/A",
+   "Studio": ["Workpoint Pictures","It-ti-rit House"]
+  },
+  {
+   "Title":"Cloudy with a Chance of Meatballs 2",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2013,
+   "Budget": 78000000,
+   "Box_Office": 274325949,
+   "RT_rating": 0.7,
+   "Studio": ["Sony Pictures Animation"]
+  },
+  {
+   "Title":"Despicable Me 2",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2013,
+   "Budget": 76000000,
+   "Box_Office": 970761885,
+   "RT_rating": 0.74,
+   "Studio": ["Illumination Entertainment","Universal Pictures"]
+  },
+  {
+   "Title":"Epic",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2013,
+   "Budget": 100000000,
+   "Box_Office": 268426634,
+   "RT_rating": 0.64,
+   "Studio": ["Blue Sky Studios","20th Century Fox"]
+  },
+  {
+   "Title":"Escape from Planet Earth",
+   "Country": ["United States","Canada"],
+   "Technique":"CG Animation",
+   "Year": 2013,
+   "Budget": 40000000,
+   "Box_Office": 74597643,
+   "RT_rating": 0.33,
+   "Studio": ["Rainmaker Entertainment","The Weinstein Company"]
+  },
+  {
+   "Title":"Free Birds",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2013,
+   "Budget": 55000000,
+   "Box_Office": 110387072,
+   "RT_rating": 0.18,
+   "Studio": ["Reel FX Creative Studios","Relativity Media"]
+  },
+  {
+   "Title":"Frozen",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2013,
+   "Budget": 150000000,
+   "Box_Office": 1276480335,
+   "RT_rating": 0.89,
+   "Studio": ["Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Khumba",
+   "Country": ["South Africa"],
+   "Technique":"CG Animation",
+   "Year": 2013,
+   "Budget": 20000000,
+   "Box_Office": 27187375,
+   "RT_rating": 0.44,
+   "Studio": ["Triggerfish Animation Studios"]
+  },
+  {
+   "Title":"Monsters University",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2013,
+   "Budget": 200000000,
+   "Box_Office": 743559607,
+   "RT_rating": 0.78,
+   "Studio": ["Pixar"]
+  },
+  {
+   "Title":"Planes",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2013,
+   "Budget": 50000000,
+   "Box_Office": 239258712,
+   "RT_rating": 0.26,
+   "Studio": ["DisneyToon Studios"]
+  },
+  {
+   "Title":"Space Pirate Captain Harlock",
+   "Country": ["Japan"],
+   "Technique":"CG Animation",
+   "Year": 2013,
+   "Budget": 30000000,
+   "Box_Office": 17137302,
+   "RT_rating":"N/A",
+   "Studio": ["(N/A)"]
+  },
+  {
+   "Title":"The Croods",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2013,
+   "Budget": 135000000,
+   "Box_Office": 587204668,
+   "RT_rating": 0.7,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"Turbo",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2013,
+   "Budget": 135000000,
+   "Box_Office": 282570682,
+   "RT_rating": 0.67,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"Underdogs",
+   "Country": ["Argentina","Spain"],
+   "Technique":"CG Animation",
+   "Year": 2013,
+   "Budget": 21000000,
+   "Box_Office": 30800000,
+   "RT_rating":"N/A",
+   "Studio": ["100 Bares Producciones","Catmandu Entertainment","Plural+Jempsa"]
+  },
+  {
+   "Title":"Big Hero 6",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2014,
+   "Budget": 165000000,
+   "Box_Office": 657800000,
+   "RT_rating": 0.89,
+   "Studio": ["Walt Disney Animation Studios"]
+  },
+  {
+   "Title":"Chaar Sahibzaade",
+   "Country": ["India"],
+   "Technique":"CG Animation",
+   "Year": 2014,
+   "Budget": 2900000,
+   "Box_Office": 10000000,
+   "RT_rating":"N/A",
+   "Studio": ["Baweja Movies","Irealities Technology"]
+  },
+  {
+   "Title":"How to Train Your Dragon 2",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2014,
+   "Budget": 145000000,
+   "Box_Office": 621500000,
+   "RT_rating": 0.91,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"Legends of Oz: Dorothy's Return",
+   "Country": ["United States","Australia","Denmark"],
+   "Technique":"CG Animation",
+   "Year": 2014,
+   "Budget": 70000000,
+   "Box_Office": 18700000,
+   "RT_rating": 0.16,
+   "Studio": ["Summertime Entertainment","Prana Studios"]
+  },
+  {
+   "Title":"Moomins on the Riviera",
+   "Country": ["France","Finland"],
+   "Technique":"Traditional",
+   "Year": 2014,
+   "Budget": 4000000,
+   "Box_Office": 1400000,
+   "RT_rating": 0.7,
+   "Studio": ["Handle Productions","Pictak Cie"]
+  },
+  {
+   "Title":"Mortadelo and Filemon: Mission Implausible",
+   "Country": ["Spain"],
+   "Technique":"CG Animation",
+   "Year": 2014,
+   "Budget": 12500000,
+   "Box_Office": 5500000,
+   "RT_rating":"N/A",
+   "Studio": ["Zeta Cinema","Películas Pendelton","Ilion Animation Studios"]
+  },
+  {
+   "Title":"Mr. Peabody & Sherman",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2014,
+   "Budget": 145000000,
+   "Box_Office": 275700000,
+   "RT_rating": 0.79,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"Penguins of Madagascar",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2014,
+   "Budget": 132000000,
+   "Box_Office": 373000000,
+   "RT_rating": 0.72,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"Planes: Fire & Rescue",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2014,
+   "Budget": 50000000,
+   "Box_Office": 151400000,
+   "RT_rating": 0.26,
+   "Studio": ["DisneyToon Studios"]
+  },
+  {
+   "Title":"Rio 2",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2014,
+   "Budget": 103000000,
+   "Box_Office": 500100000,
+   "RT_rating": 0.48,
+   "Studio": ["Blue Sky Studios"]
+  },
+  {
+   "Title":"Stand by Me Doraemon",
+   "Country": ["Japan"],
+   "Technique":"CG Animation",
+   "Year": 2014,
+   "Budget": 35000000,
+   "Box_Office": 173440356,
+   "RT_rating":"N/A",
+   "Studio": ["Fujiko Movie Studio"]
+  },
+  {
+   "Title":"The Book of Life",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2014,
+   "Budget": 50000000,
+   "Box_Office": 99800000,
+   "RT_rating":0.81,
+   "Studio": ["Reel FX","20th Century Fox Animation"]
+  },
+  {
+   "Title":"The Lego Movie",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2014,
+   "Budget": 60000000,
+   "Box_Office": 469200000,
+   "RT_rating": 0.96,
+   "Studio": ["Warner Bros.","Animal Logic","Lego"]
+  },
+  {
+   "Title":"The Nut Job",
+   "Country": ["Canada","United States","South Korea"],
+   "Technique":"CG Animation",
+   "Year": 2014,
+   "Budget": 42800000,
+   "Box_Office": 120900000,
+   "RT_rating": 0.1,
+   "Studio": ["ToonBox Entertainment","Red Rover International"]
+  },
+  {
+   "Title":"The Snow Queen: Journey Continues",
+   "Country": ["Russia"],
+   "Technique":"CG Animation",
+   "Year": 2014,
+   "Budget": 7000000,
+   "Box_Office": 14000000,
+   "RT_rating":"N/A",
+   "Studio": ["Wizart Animation"]
+  },
+  {
+   "Title":"When Marnie Was There",
+   "Country": ["Japan"],
+   "Technique":"Traditional",
+   "Year": 2014,
+   "Budget": 10500000,
+   "Box_Office": 30600000,
+   "RT_rating": 0.9,
+   "Studio": ["Studio Ghibli"]
+  },
+  {
+   "Title":"3 Bahadur",
+   "Country": ["Pakistan"],
+   "Technique":"CG Animation",
+   "Year": 2015,
+   "Budget": 150000,
+   "Box_Office": 666000,
+   "RT_rating":"N/A",
+   "Studio": ["Waadi Animations"]
+  },
+  {
+   "Title":"A Rooster With Many Eggs",
+   "Country": ["Mexico"],
+   "Technique":"CG Animation",
+   "Year": 2015,
+   "Budget": 5300000,
+   "Box_Office": 24100000,
+   "RT_rating":"N/A",
+   "Studio": ["Huevocartoon Producciones"]
+  },
+  {
+   "Title":"Capture The Flag",
+   "Country": ["Spain"],
+   "Technique":"CG Animation",
+   "Year": 2015,
+   "Budget": 12500000,
+   "Box_Office": 16660000,
+   "RT_rating": 0.25,
+   "Studio": ["Lightbox Entertainment","Telecinco Cinema","Telefónica Studios"]
+  },
+  {
+   "Title":"Dragon Ball Z: Resurrection 'F'",
+   "Country": ["Japan"],
+   "Technique":"Traditional",
+   "Year": 2015,
+   "Budget": 5000000,
+   "Box_Office": 62000000,
+   "RT_rating": 0.79,
+   "Studio": ["Toei Animation"]
+  },
+  {
+   "Title":"Home",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2015,
+   "Budget": 135000000,
+   "Box_Office": 386000000,
+   "RT_rating": 0.47,
+   "Studio": ["DreamWorks Animation"]
+  },
+  {
+   "Title":"Hotel Transylvania 2",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2015,
+   "Budget": 80000000,
+   "Box_Office": 469000000,
+   "RT_rating": 0.56,
+   "Studio": ["Sony Pictures Animation"]
+  },
+  {
+   "Title":"Inside Out",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2015,
+   "Budget": 175000000,
+   "Box_Office": 856800000,
+   "RT_rating": 0.98,
+   "Studio": ["Pixar"]
+  },
+  {
+   "Title":"Minions",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2015,
+   "Budget": 74000000,
+   "Box_Office": 1159000000,
+   "RT_rating": 0.55,
+   "Studio": ["Illumination Entertainment"]
+  },
+  {
+   "Title":"Monkey King: Hero Is Back",
+   "Country": ["China"],
+   "Technique":"CG Animation",
+   "Year": 2015,
+   "Budget": 16000000,
+   "Box_Office": 153000000,
+   "RT_rating":"N/A",
+   "Studio": ["(N/A)"]
+  },
+  {
+   "Title":"The Good Dinosaur",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2015,
+   "Budget": 200000000,
+   "Box_Office": 313200000,
+   "RT_rating": 0.76,
+   "Studio": ["Pixar"]
+  },
+  {
+   "Title":"The Little Prince",
+   "Country": ["France","Italy"],
+   "Technique":"CG Animation",
+   "Year": 2015,
+   "Budget": 77500000,
+   "Box_Office": 88400000,
+   "RT_rating": 0.91,
+   "Studio": ["Onyx Films"]
+  },
+  {
+   "Title":"The Peanuts Movie",
+   "Country": ["United States"],
+   "Technique":"CG Animation",
+   "Year": 2015,
+   "Budget": 99000000,
+   "Box_Office": 245300000,
+   "RT_rating":"N/A",
+   "Studio": ["Blue Sky Studios"]
+  },
+  {
+   "Title":"Three heroes. Horse Course",
+   "Country": ["Russia"],
+   "Technique":"Traditional",
+   "Year": 2015,
+   "Budget": 3500000,
+   "Box_Office": 19390136,
+   "RT_rating":"N/A",
+   "Studio": ["CTB Film Company","Melnitsa Animation Studio"]
+  },
+  {
+   "Title":"Top Cat Begins",
+   "Country": ["Mexico","India"],
+   "Technique":"CG Animation",
+   "Year": 2015,
+   "Budget": 8000000,
+   "Box_Office": 3600000,
+   "RT_rating":"N/A",
+   "Studio": ["Ánima Estudios"]
+  }
+]
